@@ -12,3 +12,4 @@ for l in get('leagues', paginated=False):
     row = [l['id'], l['country_id'], l['name'], bool(int(l['is_cup']))]
     print (*row, sep=', ')
 
+#dfgdf
